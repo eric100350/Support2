@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Customer Support</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+ 
+  <link href="assets/css/main.css" rel="stylesheet">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+
+</head>
+
+<body class="contact-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets/img/logo.png" alt=""> 
+        <h1 class="sitename">Lipalikes</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">FAQs</a></li>
+          <li><a href="contact.html">Help Center</a></li>
+          <li><a href="about.html">Privacy Policy</a></li>
+          
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+     
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- FAQs Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>FAQs</h2>
+        <p>"Here are some of Frequently asked questions"</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+            <div class="border-b border-gray-200 pb-4">
+                <button
+                  class="w-full text-left flex justify-between items-center"
+                  onclick="toggleFAQ(1)"
+                >
+                  <span class="text-lg font-medium text-gray-800">
+                    How do Lipalikes work in Kenya?
+                  </span>
+                  <svg
+                    id="icon-1"
+                    class="w-5 h-5 text-gray-500 transform transition-transform duration-300"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div id="answer-1" class="mt-2 text-gray-600 hidden">
+                  <p>Lipalikes is the ultimate platform for creatives, as it lets you monetize every like, comment, and share on your content. Get your art out there, grow your fanbase, and earn every step of the way! Join today and enjoy the freshest hits in town as you earn! </p>
+                </div>
+              </div>
+          
+              <!-- Question 2 -->
+              <div class="border-b border-gray-200 pb-4">
+                <button
+                  class="w-full text-left flex justify-between items-center"
+                  onclick="toggleFAQ(2)"
+                >
+                  <span class="text-lg font-medium text-gray-800">
+                    How do i monitize using the app?
+                  </span>
+                  <svg
+                    id="icon-2"
+                    class="w-5 h-5 text-gray-500 transform transition-transform duration-300"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div id="answer-2" class="mt-2 text-gray-600 hidden">
+                  <p>To monetize using the Lipalikes app, you essentially earn money based on the engagement
+                    your content receives, such as likes, comments, and shares, with users on the platform
+                     "tipping" you for each interaction with your content, allowing you to generate income
+                      directly from your social media presence.</p>
+                </div>
+              </div>
+    
+               <!-- Question 3 -->
+               <div class="border-b border-gray-200 pb-4">
+                <button
+                  class="w-full text-left flex justify-between items-center"
+                  onclick="toggleFAQ(3)"
+                >
+                  <span class="text-lg font-medium text-gray-800">
+                    How can I withdraw my earnings from Lipalikes?
+                  </span>
+                  <svg
+                    id="icon-3"
+                    class="w-5 h-5 text-gray-500 transform transition-transform duration-300"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div id="answer-3" class="mt-2 text-gray-600 hidden">
+                  <p>Users can withdraw their earnings instantly through supported payment methods such 
+                    as M-Pesa,or other available options. The minimum withdrawal amount is 300 and
+                     processing time 5secs </p>
+                </div>
+              </div>
+              
+               <!-- Question 4 -->
+               <div class="border-b border-gray-200 pb-4">
+                <button
+                  class="w-full text-left flex justify-between items-center"
+                  onclick="toggleFAQ(4)"
+                >
+                  <span class="text-lg font-medium text-gray-800">
+                    Is Lipalikes free to use, or do I need to pay a subscription?
+                  </span>
+                  <svg
+                    id="icon-4"
+                    class="w-5 h-5 text-gray-500 transform transition-transform duration-300"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div id="answer-4" class="mt-2 text-gray-600 hidden">
+                  <p>Lipalikes is free to join.
+                      Users can earn money without paying any fees. </p>
+                </div>
+              </div>
+    
+               <!-- Question 5 -->
+               <div class="border-b border-gray-200 pb-4">
+                <button
+                  class="w-full text-left flex justify-between items-center"
+                  onclick="toggleFAQ(5)"
+                >
+                  <span class="text-lg font-medium text-gray-800">
+                    The app is slow at times or may lag depending on your internet quality?
+                  </span>
+                  <svg
+                    id="icon-5"
+                    class="w-5 h-5 text-gray-500 transform transition-transform duration-300"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </button>
+                <div id="answer-5" class="mt-2 text-gray-600 hidden">
+                  <p>Lipalikes is still under development, and we're constantly working to improve the
+                     app based on user feedback. New features, enhancements, and bug fixes are regularly
+                      being added to provide a better experience for our users. </p>
+                </div>
+              </div>
+          
+              <!-- Add more questions as needed -->
+        
+          <script>
+            function toggleFAQ(id) {
+                const answer = document.getElementById(`answer-${id}`);
+                const icon = document.getElementById(`icon-${id}`);
+                answer.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            }
+          </script>
+
+            
+
+              
+          
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Lipalikes</strong> <span>All Rights Reserved<br></span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <a href="index1.html"> Terms and Conditions</a> Apply <a href="https://play.google.com/store/apps/details?id=com.app.lipalikes&hl=en&pli=1">Lipalikes</a> 
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
